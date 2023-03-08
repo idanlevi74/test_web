@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  </head>
-<body>
-  {%include 'nav.html'%}
-<div class="container">
+{%extends "base.html"%}
+{%block title%}Home{%endblock title%}
+{%block context%}
+
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
   <img src="https://testweb.idanlevi74.repl.co/static/managephoto.jpg" class="img-fluid"></img>
 <h3 class="text-center">About The Company</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non enim dignissim, placerat arcu nec, efficitur eros. Maecenas eu elit sit amet turpis rutrum blandit non ullamcorper diam. Praesent blandit placerat mattis. Cras lorem nulla, laoreet et lacus quis, sodales ornare massa. Donec scelerisque ultrices interdum. Donec nisl eros, elementum at orci eget, vehicula lacinia augue. Morbi id nisi at libero auctor molestie. Maecenas auctor metus id massa congue sodales. Etiam orci est, molestie in lectus ac, interdum rhoncus eros. Fusce lacus odio, maximus ut eros vitae, commodo cursus tortor. Mauris lobortis, ipsum at varius consectetur, ligula velit sollicitudin elit, ac varius mauris metus vel velit.</p>
-</div>
-</body>
-</html>
+
+
+
+{%endblock context%}
